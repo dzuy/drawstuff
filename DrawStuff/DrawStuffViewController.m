@@ -135,8 +135,6 @@
     
     draw_image_view.image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
-    
-    NSLog(@"drawing shit");
 }
 - (void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
     
